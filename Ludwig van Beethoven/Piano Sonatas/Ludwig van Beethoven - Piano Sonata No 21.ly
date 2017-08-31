@@ -4,7 +4,7 @@
   composer = "Ludwig van Beethoven"
   opus = "Op. 53"
   dedication = "Dem Grafen von Waldstein gewidmet"
-  tagline = ""
+  tagline = "Transcription by Philip Washington Sorst - CC BY-NC-SA"
 }
 
 upper = \relative c'' {
@@ -27,21 +27,23 @@ upper = \relative c'' {
     \clef treble
     \slashedGrace b''8 c4~ (c16 bes aes g f4\staccato) r4 |
     \slashedGrace e'8 f2. f16 es d c |
+    
+    % 10
     b c d es f es d c b c d es f es d c |
     b c d es f\sf es d c b as g f es d c b |
     c8 r g r es r c r |
     g1\fermata |
-    
     e'16 c e c e c e c e c e c e c e c |
     e16 c e c e c e c e c e c fis d fis d |
     g4. (b16 a g8\staccato) r8 r4 |
     \slashedGrace cis'8 d4~ d16 c b a g4\staccato r4 |
     f,16 d f d f d f d f d f d f d f d |
     f d f d f d f d f d f d gis e gis e |
+    
+    %20
     a4. (c16 b a8\staccato) r8 r4 |
     \slashedGrace dis'8 e4~ e16 d c b a4\staccato r |
     \slashedGrace dis8 e4~ e16 d c b ais4\staccato r |
-    
     b4~ b16 a g fis g fis e dis e g fis e |
     dis cis b ais b cis d dis e dis e fis g gis a ais |
     b ais b ais b a g fis g fis e dis e g fis e |
@@ -49,14 +51,350 @@ upper = \relative c'' {
     b fis dis b ais b e g b fis dis b ais b e g |
     b fis dis b b' fis dis b b' fis dis b b' fis dis b |
     b1
+    
+    %30
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    
+    %40
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    
+    %50
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    
+    %60
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    
+    %70
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    
+    %80
+    r1
+    r1
+    r1
+    r1
+    r1
   }
+  \alternative {
+    {
+      r1
+      r1
+    }
+    {
+      r1
+      r1
+    }
+  }
+  r1
+  
+  %90
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %100
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %110
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %300
+  r1
+  r1
+  r1
+  <c e g c>4\staccato r4 r2
+  \bar "|."
 }
 
 lower = \relative c {
   \clef bass
   \key c \major
   \time 4/4
-
   
   c,8 <c g'> <c g'> <c g'> <c g'> <c g'> <c g'> <c g'> |
   <c g'> <c g'> <c g'> <c g'> <c g'> <c g'> <c a'> <c a'> |
@@ -89,20 +427,710 @@ lower = \relative c {
     b, dis fis b ais b g e b dis fis b ais b g e |
     b dis fis b b, e g b b, dis fis b b, e g b |
     <b, dis fis b>1
+    
+    %30
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    
+    %40
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    
+    %50
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    
+    %60
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    
+    %70
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    r1
+    
+    %80
+    r1
+    r1
+    r1
+    r1
+    r1
   }
+  \alternative {
+    {
+      r1
+      r1
+    }
+    {
+      r1
+      r1
+    }
+  }
+  r1
+  
+  %90
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %100
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %110
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %80
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  r1
+  
+  %300
+  r1
+  r1
+  r1
+  <c, e g c>4\staccato r4 r2
+  \bar "|."
 }
 
 dynamics = {
-  s1\pp s1 s1 s1
-  s1\pp s1 s1 s1
-  s1\cresc s1 s1\f
+  s1\pp
+  s1
+  s1
+  s1
+  s1\pp
+  s1
+  s1
+  s1
+  s1\cresc
+  
+  %10
+  s1
+  s1\f
   s4
-  s2.\decr
+  s2.\decr s1\p
+  s1\pp
+  s1
+  s1
+  s1
+  s1\pp
+  s1
+  
+  %20
+  s1
+  s1\cresc
+  s1
   s1\p
-  s1\pp s1 s1 s1
-  s1\pp s1 s1 s1\cresc s1
-  s1\p s1 s1 s1 
-  s1\cresc s4\f s4\sf s\sf s\sf
+  s1
+  s1
+  s1 
+  s1\cresc
+  s4\f s4\sf s4\sf s4\sf
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %40
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %50
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %60
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %70
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %80
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  
+  %30
+  s1
+  s1
+  s1\ff
+  s1
 }
 
 \score {
@@ -114,5 +1142,5 @@ dynamics = {
     \new Staff = "lower" \lower
   >>
   \layout { }
-  \midi { }
+  % \midi { }
 }
