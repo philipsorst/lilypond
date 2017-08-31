@@ -1,3 +1,4 @@
+\version "2.18.2"
 \header {
   title = "Piano Sonata No. 21"
   composer = "Ludwig van Beethoven"
@@ -30,6 +31,24 @@ upper = \relative c'' {
     b c d es f\sf es d c b as g f es d c b |
     c8 r g r es r c r |
     g1\fermata |
+    
+    e'16 c e c e c e c e c e c e c e c |
+    e16 c e c e c e c e c e c fis d fis d |
+    g4. (b16 a g8\staccato) r8 r4 |
+    \slashedGrace cis'8 d4~ d16 c b a g4\staccato r4 |
+    f,16 d f d f d f d f d f d f d f d |
+    f d f d f d f d f d f d gis e gis e |
+    a4. (c16 b a8\staccato) r8 r4 |
+    \slashedGrace dis'8 e4~ e16 d c b a4\staccato r |
+    \slashedGrace dis8 e4~ e16 d c b ais4\staccato r |
+    
+    b4~ b16 a g fis g fis e dis e g fis e |
+    dis cis b ais b cis d dis e dis e fis g gis a ais |
+    b ais b ais b a g fis g fis e dis e g fis e |
+    dis cis b ais b cis d dis e dis e fis g gis a ais |
+    b fis dis b ais b e g b fis dis b ais b e g |
+    b fis dis b b' fis dis b b' fis dis b b' fis dis b |
+    b1
   }
 }
 
@@ -53,6 +72,23 @@ lower = \relative c {
     <g f'>4 <g' g'>2~\sf <g g'>8 a'16 b |
     c8 r <g, g'> r <es es'> r <c c'> r |
     <g g'>1\fermata
+    
+    <c c'>8 c'16 g' c, g' c, g' c, g' c, g' c, g' c, g' |
+    c, g' c, g' c, g' c, g' c, g' c, g' c, a' c, a' |
+    <b, d> g' <b, d> g' <b, d> g' <b, d> g' <b, d> g' <b, d> g' <b, d> g' <b, d> g' <b, d> g' <b, d> g' <b, d> g' <b, d> g' <b, d> g' <b, d> g' <b, d> g' <b, d> g' |
+    <d, d'>8 d'16 a' d, a' d, a' d, a' d, a' d, a' d, a' |
+    d, a' d, a' d, a' d, a' d, a' d, a' d, b' d, b' |
+    <c, e> a' <c, e> a' <c, e> a' <c, e> a' <c, e> a' <c, e> a' <c, e> a' <c, e> a' |
+    <c, e> a' <c, e> a' <c, e> a' <c, e> a' <c, e> a' <c, e> a' <c, e> a' <c, e> a' |
+    <c, e> ais' <c, e> ais' <c, e> ais' <c, e> ais' <c, e> ais' <c, e> ais' <c, e> ais' <c, e> ais' |
+    
+    b, dis fis b b, dis fis b b, dis fis b b, dis fis b |
+    b, fis' a b b, fis' a b b, fis' a b b, fis' a b  |
+    b, dis fis b b, dis fis b b, e g b b, e g b |
+    b, fis' a b b, fis' a b b, e g b b, e g b |
+    b, dis fis b ais b g e b dis fis b ais b g e |
+    b dis fis b b, e g b b, dis fis b b, e g b |
+    <b, dis fis b>1
   }
 }
 
@@ -60,15 +96,19 @@ dynamics = {
   s1\pp s1 s1 s1
   s1\pp s1 s1 s1
   s1\cresc s1 s1\f
-  \s4
+  s4
   s2.\decr
   s1\p
+  s1\pp s1 s1 s1
+  s1\pp s1 s1 s1\cresc s1
+  s1\p s1 s1 s1 
+  s1\cresc s4\f s4\sf s\sf s\sf
 }
 
 \score {
   \new PianoStaff 
   <<
-    \set PianoStaff.instrumentName = #"Piano  "
+    % \set PianoStaff.instrumentName = "Piano  "
     \new Staff = "upper" \upper
     \new Dynamics = "dynamics" \dynamics
     \new Staff = "lower" \lower
