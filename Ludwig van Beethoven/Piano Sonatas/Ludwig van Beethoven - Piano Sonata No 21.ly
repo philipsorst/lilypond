@@ -4,7 +4,8 @@
   composer = "Ludwig van Beethoven"
   opus = "Op. 53"
   dedication = "Dem Grafen von Waldstein gewidmet"
-  tagline = "Transcription by Philip Washington Sorst - CC BY-NC-SA"
+  tagline = ""
+  copyright = "Transcription by Philip Washington Sorst - CC BY-NC-SA"
 }
 
 global = {
@@ -1193,8 +1194,29 @@ global = {
   r1 |
   s1 |
   
-    % 30
+  % 280
   r1 |
+  r1 |
+  s1 |
+  
+  r1 |
+  r4 \clef treble r2. |
+  s1 |
+  
+  r1 |
+  r1 |
+  s1 |
+  
+  \afterGrace <b'' f'>1\fermata { f'32 e d c b a g f e d c b } |
+  <g'' d' f>1\fermata |
+  s1\sf |
+  
+  \afterGrace<b f'>1\fermata { f'32 e d c b a g f } |
+  \clef bass <g, d' f>1\fermata |
+  s1\sf |
+  
+  % 285
+  \clef bass r1 |
   r1 |
   s1 |
   
@@ -1214,7 +1236,7 @@ global = {
   r1 |
   s1 |
   
-  % 35
+  % 290
   r1 |
   r1 |
   s1 |
@@ -1233,37 +1255,16 @@ global = {
   
   r1 |
   r1 |
-  s1 |
+  s1\cresc-"ritard." |
   
-    % 30
+  % 295
   r1 |
   r1 |
-  s1 |
+  s2 s2\p |
   
+  \tempo "a tempo" <e, c'>8 \clef treble <c' e>8[ <c e> <c e> <c e> <c e> <c e> <c e>] |
   r1 |
-  r1 |
-  s1 |
-  
-  r1 |
-  r1 |
-  s1 |
-  
-  r1 |
-  r1 |
-  s1 |
-  
-  r1 |
-  r1 |
-  s1 |
-  
-  % 35
-  r1 |
-  r1 |
-  s1 |
-  
-  r1 |
-  r1 |
-  s1 |
+  s1\pp |
   
   r1 |
   r1 |
@@ -1286,25 +1287,26 @@ global = {
   r1 |
   s1 |
   
-  r1 |
-  r1 |
-  s1 |
+  <e g c e>4\staccato r <g b d g>\staccato r |
+  <c, e g c>4\staccato r <g b d g>\staccato r |
+  s1\ff |
   
-  r1 |
-  r1 |
-  s1 |
+  <c e g c>4\staccato r4 r2 |
+  <c, e g c>4\staccato r4 r2 |
+  s1 \bar "|."
 }
 
 \score {
-  \new PianoStaff <<
+  \new PianoStaff
+  <<
      \new Staff {
-       \global \relative c'' { \upper }
+       \global \relative c'' { \accidentalStyle piano \upper }
      }
      \new Dynamics {
        \dynamics
      }
      \new Staff {
-       \global \relative c { \clef bass \lower }
+       \global \relative c { \accidentalStyle piano \clef bass \lower }
      }
   >>
 }
