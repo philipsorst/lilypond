@@ -368,28 +368,28 @@ global = {
     r1 |
     r1 |
     s1 |
-  }
-  \alternative {
-    {
+%  }
+%  \alternative {
+%    {
       % 85
-      r1 |
-      r1 |
-      s1 |
+      \clef bass <e,, c'>8 <c e> <c e> <c e> <c e> <c e> <c e> <c e> |
+      <c, c'> <c g'> <c g'> <c g'> <c g'> <c g'> <c g'> <c g'> |
+      s1\pp |
       
-      r1 |
-      r1 |
+      <c e>8 <c e> <c e> <c e> <c e> <c e> <d fis> <d fis> |
+      <c g'> <c g'> <c g'> <c g'> <c g'> <c g'> <c a'> <c a'> |
       s1 |
     }
-    {
-      r1 |
-      r1 |
-      s1 |
+%    {
+      \clef treble c'4\staccato f'8( e d4 bes8 g |
+      << { e'4 f~ f8 g a bes } \\ { c,4 a bes2 } >> |
+      s4 s2.\cresc |
     
-      r1 |
-      r1 |
-      s1 |
-     }
-  }
+      c4 a8 f bes4 g8 e) |
+      << { <a' c>2( <g bes>) } \\ { c,1 } >> |
+      s1\p |
+%     }
+%  }
     
   r1 |
   r1 |
