@@ -4,104 +4,63 @@
   title = "Goldener Reiter"
   instrument = "Bass"
   composer = "Joachim Witt"
+  tagline = ""
 }
 
 intro = \relative {
-  g,,8 \mark "Intro" g g g g g g g
-  g g g g g g g g
-  g g g g g g g g
-  g g g g g g g16 g g g
+  \mark "Intro"
+  \repeat percent 12 { g,,8 g g g g g g g |}
 }
 
-verse_one = \relative {
-  g,,8 \mark "Verse 1" r g r g r g r
-  g r g r g r g r
-  c8 r c r c r c r
-  f,8 r f r f r f r
-  f r c' r f, r c' r
-  f, r c' r g f g f
-  g8 r g r g r g r
-  g r g r g r g r
-  c8 r c r c r c r
-  f,8 r f r f r f r
-  f r c' r f, r c' r
-  f, r c' r g f g f
-  g8 g g g g g g g
-  g g g g g g g g
-  g g g g g g g g
-  g g g g g g g16 g g g
+bridge = \relative {
+  \mark "Bridge"
+  \repeat percent 4 {g,,8 g g g g g g g |}
 }
 
-verse_two = \relative {
-  g,,8 \mark "Verse 2" r g r g r g r
+verse = \relative {
+  \mark "Verse"
+  g,,8 r g r g r g r
   g r g r g r g r
-  c8 r c r c r c r
-  f,8 r f r f r f r
-  f r c' r f, r c' r
-  f, r c' r g f g f
-  g8 r g r g r g r
-  g r g r g r g r
-  c8 r c r c r c r
-  f,8 r f r f r f r
-  f r c' r f, r c' r
-  f, r c' r g f g f
+  bes8 r bes r bes r bes r
+  f'8 r f r f r f r
+  f r f r f r f r
+  f r f r f e f fis
+  g, r g r g r g r
+  bes8 r bes r bes r bes r
+  f'8 r f r f r f r
+  f r f r f r f r
+  f8 r r4 f8 r r4
+  f8 r r4 f8 e f fis
 }
 
-chorus_one = \relative {
-  g,,8 \mark "Chorus 1" g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
+chorus = \relative {
+  \mark "Chorus"
+  \repeat percent 4 {
+    g,,8 g g g g g g g |
+    g g g g g g g g |
+    f f f f f f f f |
+    f f f f f f f f |
+  }
 }
 
 verse_three = \relative {
-  g,,8 \mark "Verse 3" r g r g r g r
+  g,,8 r g r g r g r
   g r g r g r g r
-  c8 r c r c r c r
+  bes8 r bes r bes r bes r
   f,8 r f r f r f r
-  f r c' r f, r c' r
-  f, r c' r g f g f
+  f r bes' r f, r bes' r
+  f, r bes' r g f g f
   g8 r g r g r g r
   g r g r g r g r
-  c8 r c r c r c r
+  bes8 r bes r bes r bes r
   f,8 r f r f r f r
-  f r c' r f, r c' r
-  f, r c' r g f g f
-}
-
-chorus_two = \relative {
-  g,,8 \mark "Chorus 2" g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f1
+  f r bes' r f, r bes' r
+  f, r bes' r g f g f
 }
 
 solo = \relative {
-  g,,8 \mark "Solo" g g g g g g g
+  \mark "Solo"
+  g,,8 g g g g g g g
   g g g g g g g g
   f f f f f f f f
   f f f f g f g f
@@ -109,82 +68,16 @@ solo = \relative {
   g g g g g g g g
   f f f f f f f f
   f f f f g f g f
-}
-
-chorus_three = \relative {
-  g,,8 \mark "Chorus 3" g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-}
-
-verse_four = \relative {
-  g,,8 \mark "Verse 4" r g r g r g r
-  g r g r g r g r
-  c8 r c r c r c r
-  f,8 r f r f r f r
-  f r c' r f, r c' r
-  f, r c' r g f g f
-  g8 r g r g r g r
-  g r g r g r g r
-  c8 r c r c r c r
-  f,8 r f r f r f r
-  f r c' r f, r c' r
-  f, r c' r g f g f
-}
-
-chorus_four = \relative {
-  g,,8 \mark "Chorus 4" g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
 }
 
 outro = \relative {
-  f,,8 \mark "Outro" f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-}
-
-fade_out = \relative {
-  f,,8 \mark "Fade Out" f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
-  g g g g g g g g
-  g g g g g g g g
-  f f f f f f f f
-  f f f f f f f f
+  \mark "Outro"
+  \repeat percent 8 {
+    g,,8 g g g g g g g
+    g g g g g g g g
+    f f f f f f f f
+    f f f f f f f f
+  }
 }
 
 \new TabStaff \with {
@@ -193,25 +86,25 @@ fade_out = \relative {
 } {
     \intro
     \break
-    \verse_one
+    \verse
     \break
-    \verse_two
+    \bridge
     \break
-    \chorus_one
+    \verse
     \break
-    \verse_three
+    \chorus
     \break
-    \chorus_two
+    \verse
+    \break
+    \chorus
     \break
     \solo
     \break
-    \chorus_three
+    \chorus
     \break
-    \verse_four
+    \verse
     \break
-    \chorus_four
+    \chorus
     \break
     \outro
-    \break
-    \fade_out
 }
